@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:ital@1&family=Shantell+Sans:wght@300&display=swap');
+
+body {
+    background-color: floralwhite;
+}
+
+.heading {
+    text-align: center;
+    color: teal;
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 0;}
+}
+
+.img {
+    text-align: center;
+    animation: image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.time {
+    width: 25%;
+    margin: 0 auto;
+    color: rgb(41, 36, 36);
+    position: relative;
+    animation: time;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes time {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.heading-ingredients {
+    text-align: center;
+    color: teal;
+}
+
+.ingredients {
+    margin: 0 auto;
+}
+
+.noodles {
+    text-align: left;
+}
+
+.tofu {
+    text-align: left;
+}
+
+.sauce {
+    text-align: left;
+}
+
+.heading-instructions {
+    text-align: center;
+    color: teal;
+}
+
+.instructions {
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(41, 36, 36);
+}
